@@ -12,13 +12,13 @@ public class Ex2 {
         books.put("Comedy", new HashSet<>());
         books.put("Action", new HashSet<>());
 
-        books.get("Drama").add(new Book("A Song of Ice and Fire", "George R. R. Martin", 1996));
-        books.get("Comedy").add(new Book("The Hitchhiker's Guide to the Galaxy", "Douglas Adams", 1979));
+        books.get("Drama").add(new Book("The Little Prince", "Antoine de Saint-Exupéry", 1943));
+        books.get("Comedy").add(new Book("The Hobbit", "J. R. R. Tolkien", 1937));
         books.get("Action").add(new Book("The Lord of the Rings", "J. R. R. Tolkien", 1954));
 
-        books.get("Drama").add(new Book("1984", "George Orwel", 1949));
-        books.get("Comedy").add(new Book("Don Quichote", "Miguel de Cervantes", 1605));
-        books.get("Action").add(new Book("The Count of Monte Cristo", "Alexandre Dumas", 1844));
+        books.get("Drama").add(new Book("Ben-Hur: A Tale of the Christ", "Lew Wallace", 1880));
+        books.get("Comedy").add(new Book("The Da Vinci Code", "Dan Brown", 2003));
+        books.get("Action").add(new Book("O Alquimista", "Paulo Coelho", 1988));
 
         System.out.println(books.entrySet());
         System.out.println();
